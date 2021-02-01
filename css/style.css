@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: linear 0.3s;
+	font-family: "Noto Sans", sans-serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+nav {
+	user-select: none;
+	/*border: 2px solid red;*/
+	width: 100vw;
+	height: 20vh;
+	background-color: #343a40;
+	box-shadow: 0 0 2.5px 3px #343a40;
+	display: inline-grid;
+}
+
+.navMain {
+	display: flex;
+	justify-content: space-around;
+	/*position: absolute;*/
+	height: 50%;
+}
+
+.logo {
+	color: white;
+	position: relative;
+	top: 50%;
+	font-size: 1.3rem;
+}
+
+.search {
+	position: relative;
+	top: 9px;
+	left: 30px;
+	width: 300px;
+	height: 40px;
+	background-color:rgba(39,186,245,1);
+	box-shadow: 0 0 2.5px 3px #28a745;
+	border-radius: 300px;
+}
+
+input {
+	/*border: 2px solid #28a745;*/
+	background-color: rgba(39,186,245,1);
+	border: 0;
+	width: 88%;
+	height: 100%;
+	outline: none;
+	font-size: 1.2rem;
+	border-radius: 300px;
+}
+.searchAct {
+	background-color: #f8f9fa;
+}
+.divAct {
+	border:2px solid #28a745;
+	background-color: #f8f9fa;
+}
+
+.navMenu {
+	/*position: relative;*/
+	border: 2px solid black;
+	background-color: #343a40;
+	/*border: 5px solid blue;*/
+}
+
+.navMenu ul {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	position: relative;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+
+.navMenu ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.navMenu ul li:hover,.menuActive {
+	border-bottom: 2px solid #ffc107;
+	padding-bottom: 2px;
+}
+
+.trendMain {
+	width: 100vw;
+	height: 50vh;
+	border: 2px solid red;
+}
+
+.trend {
+	display: flex;
+	justify-content: space-between;
+	background: #dc3545;
+	padding: 10px;
+	height: 5vh;
+}
+.trend h2 {
+	font-size: 1.2rem;
+
+}
+.songCard {
+	border: 2px solid green;
+	height: 45vh;
+}
+.sLogo {
+	position: relative;
+	width: 25vw;
+	height: 100%;
+	border: 2px solid blue;
+}
+.sLogo img {
+	width: 10vw;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	box-shadow:  0 0 2.5px 3px #6c757d;
+}
+.sLogo p {
+	text-align: center;
+	padding-top: 5px
+}
